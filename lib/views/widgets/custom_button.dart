@@ -4,7 +4,8 @@ import 'package:my_note_app/constants.dart';
 class CustomButton extends StatelessWidget {
   const CustomButton({super.key, this.onTap});
 
-  final void Function()? onTap ;
+  final void Function()? onTap;
+
   @override
   Widget build(BuildContext context) {
     return GestureDetector(
@@ -20,7 +21,10 @@ class CustomButton extends StatelessWidget {
           child: Text(
             'Add',
             style: TextStyle(
-                color: Colors.black, fontWeight: FontWeight.bold, fontSize: 20),
+              color: Colors.black,
+              fontWeight: FontWeight.bold,
+              fontSize: 20,
+            ),
           ),
         ),
       ),
