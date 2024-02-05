@@ -7,7 +7,8 @@ import '../../models/note_model.dart';
 class NoteItem extends StatelessWidget {
   const NoteItem({super.key, required this.note});
 
-  final NoteModel note ;
+  final NoteModel note;
+
   @override
   Widget build(BuildContext context) {
     return GestureDetector(
