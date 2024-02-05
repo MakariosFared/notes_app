@@ -13,7 +13,7 @@ class ColorItem extends StatelessWidget {
             radius: 38,
             backgroundColor: Colors.white,
             child: CircleAvatar(
-              radius: 36,
+              radius: 34,
               backgroundColor: color,
             ),
           )
